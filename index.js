@@ -4,27 +4,27 @@ for(var i=0; i<numberOfDrumButtons; i++){
         var buttonInnerHTML=this.innerHTML;
             switch (buttonInnerHTML){
                 case "w":
-                var audio = new Audio("sounds/1.mp4");
+                var audio = new Audio("1.mp4");
                 audio.play(); 
                 break;
 
                 case "a":
-                var audio = new Audio("sounds/2.mp4");
+                var audio = new Audio("2.mp4");
                 audio.play(); 
                 break; 
 
                 case "s":
-                var audio = new Audio("sounds/3.mp4");
+                var audio = new Audio("3.mp4");
                 audio.play(); 
                 break; 
 
                 case "d":
-                var audio = new Audio("sounds/4.mp3");
+                var audio = new Audio("4.mp3");
                 audio.play(); 
                 break;
 
                 case "j":
-                var audio = new Audio("sounds/1.mp4");
+                var audio = new Audio("1.mp4");
                 audio.play(); 
                 break; 
 
